@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    width:250px;
+    height:650px;
+    background-color:#fff;
+    border-color: #c5cee0;
+    margin:30px;
+}
+.main .img{
+    text-align: center;
+    border-bottom: 2px solid #f2f4f8;
+    margin-bottom: 28px;
+}
+.main .details a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    padding: 20px 25px 28px 0;
+}
+.main .details a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.main .details ul{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 20px 25px 28px 0;
+    list-style-type: disc;
+    border-bottom: 1px solid #f2f4f8;
+    margin-bottom: 18px;
+}
+.main .price{
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.btn #buy{
+    text-align: center;
+    width:210px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    padding: 5px 25px 5px 25px;
+    text-decoration: none;
+    color:blue;
+    background-color: #f2f4f8;
+    border-radius: 5px;
+}
+.btn #buy:hover{
+    background-color: blue;
+    color: #fff;
+}
+.btn #button{
+    width:210px;
+    border: none;
+    font-size: 15px;
+    margin-top:10px;
+    background-color: #fff;
+    color:#797979;
+    padding: 5px 25px 8px 25px;
+    border-radius: 5px;
+}
+.btn #button:hover{
+    color:black;
+    background-color: #f2f4f8;
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    background-image: linear-gradient(blue,green,yellow);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:transparent ;
+
+}
+.background{
+    background-image: url(./../image/background_img.avif);
+    background-position: center;
+    background-size: cover;
+    height:350px;
+    margin-bottom: 30px;
+}
+.background h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Trebuchet MS',sans-serif;
+    color:yellow;
+    padding:30px 0 45px 0;
+}
+.background p{
+    text-align: center;
+    color:white;
+    font-family: 'Trebuchet MS',sans-serif;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.background #contact{
+    width: 100px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellowgreen;
+    border:none;
+    font-size: 15px;
+}
+.background #contact:hover{
+    font-size: 25px;
+    width:150px;
+}
+
